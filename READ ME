@@ -1,4 +1,4 @@
-1.)Type make all to compile the program
+1.)Type "make all" in terminal window to compile the program
 2.)Remove the existing UAS and usb_storage kernel module using sudo rmmod command
 3.)sudo insmod main.ko for inserting the kernel module
 3.)insert the pen drive
