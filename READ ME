@@ -1,0 +1,7 @@
+1.)Type make all to compile the program
+2.)Remove the existing UAS and usb_storage kernel module using sudo rmmod command
+3.)sudo insmod main.ko for inserting the kernel module
+3.)insert the pen drive
+4.)check kernel log dmesg -wH
+5.)the size of pendrive will be printed in sectors multiply by 512 to get the result.
+
